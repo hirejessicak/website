@@ -1,59 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica Kyle | Cybersecurity Professional</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #3498db;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+        .contact a:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background: #2c3e50;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">MyBrand</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <h1>Jessica Kyle</h1>
+        <p>Aspiring SOC Analyst | Cybersecurity Enthusiast</p>
+    </header>
 
-  <section id="home" class="hero">
-    <h1>Welcome to My Landing Page</h1>
-    <p>Your journey starts here. Let's build something amazing.</p>
-    <button id="cta-button">Get Started</button>
-  </section>
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Hi! I'm Jessica Kyle, a passionate and dedicated professional pursuing a career in cybersecurity. With a strong foundation in IT and a focus on Security Operations, I'm eager to contribute my skills to protect and defend digital environments. I'm continuously learning and growing to stay ahead in the ever-evolving field of cybersecurity.</p>
+        </div>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We are a team of passionate creators dedicated to delivering the best experience for our clients.</p>
-  </section>
+        <div class="section">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Security Operations Center (SOC) processes</li>
+                <li>Network and systems monitoring</li>
+                <li>Incident detection and response</li>
+                <li>Threat analysis and mitigation</li>
+                <li>IT support and troubleshooting</li>
+            </ul>
+        </div>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Web Development</li>
-      <li>UI/UX Design</li>
-      <li>SEO Optimization</li>
-    </ul>
-  </section>
+        <div class="section">
+            <h2>Contact Me</h2>
+            <p>If you're looking for a motivated cybersecurity professional ready to make an impact, feel free to reach out to me!</p>
+            <div class="contact">
+                <a href="mailto:hirejessicakyle@gmail.com">Email Me</a>
+            </div>
+        </div>
+    </div>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form id="contact-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 MyBrand. All Rights Reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <footer>
+        &copy; 2025 Jessica Kyle. All rights reserved.
+    </footer>
 </body>
 </html>
+
+
+  
+
+
